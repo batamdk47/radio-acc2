@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">United Kingdom Radios</string>
+    <string name="privacy_policy"> <b>"\nHOW WE USE COLLECTED INFORMATION\n"</b>
+                               "\nOur Apps may collect and use Users personal information for the following purposes:\n"
+                                "- To improve customer service Information you provide helps us respond to your customer service requests and support needs more efficiently. \n"
+                                "- Provide user and other support, including to our third-party business partners.\n"
+                                "- Carry out other purposes that are disclosed to you and to which you consent.\n"
+                               <b>"\nCHANGES TO THIS PRIVACY POLICY\n" </b>
+                                "\nOur Apps has the discretion to update this privacy policy at any time. When we do, we will revise the updated date at the bottom of this page. We encourage Users to frequently check this page for any changes to stay informed about how we are helping to protect the personal information we collect. You acknowledge and agree that it is your responsibility to review this privacy policy periodically and become aware of modifications.\n"
+
+                                <b> "\nYOUR ACCEPTANCE OF THESE TERMS\n" </b>
+                                "\nBy using our apps, you are accepting this policy. If you do not agree with this policy, please do not use our apps. Your continued use of the Apps following the posting of changes to this policy means that you have accepted those changes.\n "
+                                <b>"\nCONTACTING US \n"</b>
+                                "\nIf you have any questions about this Privacy Policy, please contact us at:\n"
+        "alenahudsonus@gmail.com"
+
+    </string>
+
+
+    <string name="ad_banner">ca-app-pub-2977788187811989/7838144923</string>
+    <string name="ad_fullscreen">ca-app-pub-2977788187811989/4649052418</string>
+
+    <string name="rate_app">Did you like this app?Then,please leave five stars for us. We will make our best efforts to make a better app.</string>
+</resources>

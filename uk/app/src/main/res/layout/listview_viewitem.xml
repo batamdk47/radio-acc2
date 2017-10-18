@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:gravity="center"
+    android:orientation="horizontal"
+    android:background="#ffffff"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp"
+    android:layout_marginTop="5dp"
+    android:layout_marginBottom="5dp">
+
+    <LinearLayout
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:gravity="center"
+        android:layout_marginLeft="2dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/bg_item_listview_radio">
+
+        <ImageView
+            android:id="@+id/imv_logo"
+            android:layout_width="40dp"
+            android:layout_height="40dp" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_width="220dp"
+            android:layout_height="45dp"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/txtvname"
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:ellipsize="end"
+                android:gravity="bottom"
+                android:singleLine="true"
+                android:textAlignment="textStart"
+                android:textColor="#000000"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtvLocation"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_gravity="top"
+                android:textAlignment="textStart"
+                android:textColor="#000000"
+                android:textSize="14sp"
+                android:textStyle="italic"/>
+        </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:id="@+id/txt_bitrate"
+            android:layout_marginRight="10dp"
+            android:textColor="#000000"
+            android:textSize="11dp"/>
+
+        <ImageView
+            android:id="@+id/txt_update"
+            android:layout_width="23dp"
+            android:layout_height="23dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="8dp"
+            android:textColor="#ff0000"
+            android:textSize="11dp"
+            android:layout_marginTop="5dp"/>
+
+
+    </RelativeLayout>
+
+</LinearLayout>
